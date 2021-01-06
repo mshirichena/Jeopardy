@@ -7,17 +7,118 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "34002346-C8CF-459E-83ED-61A110275180"
+            uuid = "6FF0BD4E-C365-4908-A76D-5A58DE24153C"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Jeopardy/CluesTableViewCell.swift"
+            filePath = "Jeopardy/SelectedClueViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "16"
-            endingLineNumber = "16"
-            landmarkName = "awakeFromNib()"
-            landmarkType = "7">
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "SelectedClueViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "6FF0BD4E-C365-4908-A76D-5A58DE24153C - f844da80c0e91102"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Jeopardy.SelectedClueViewController.questionTextField.getter : Swift.Optional&lt;__C.UITextField&gt;"
+                  moduleName = "Jeopardy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/christianshirichena/Documents/Developer/Jeopardy/Jeopardy/SelectedClueViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "104">
+               </Location>
+               <Location
+                  uuid = "6FF0BD4E-C365-4908-A76D-5A58DE24153C - 1d17d495faf2516"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Jeopardy.SelectedClueViewController.questionTextField.setter : Swift.Optional&lt;__C.UITextField&gt;"
+                  moduleName = "Jeopardy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/christianshirichena/Documents/Developer/Jeopardy/Jeopardy/SelectedClueViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "148">
+               </Location>
+               <Location
+                  uuid = "6FF0BD4E-C365-4908-A76D-5A58DE24153C - d1e6171789dd6850"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Jeopardy.SelectedClueViewController.questionTextField.modify : Swift.Optional&lt;__C.UITextField&gt;"
+                  moduleName = "Jeopardy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/christianshirichena/Documents/Developer/Jeopardy/Jeopardy/SelectedClueViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "60">
+               </Location>
+               <Location
+                  uuid = "6FF0BD4E-C365-4908-A76D-5A58DE24153C - 294a954e4f9afe12"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Jeopardy.SelectedClueViewController.questionTextField.modify : Swift.Optional&lt;__C.UITextField&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "Jeopardy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/christianshirichena/Documents/Developer/Jeopardy/Jeopardy/SelectedClueViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "72">
+               </Location>
+               <Location
+                  uuid = "6FF0BD4E-C365-4908-A76D-5A58DE24153C - f96016ba948f22a5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Jeopardy.SelectedClueViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Jeopardy.SelectedClueViewController"
+                  moduleName = "Jeopardy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/christianshirichena/Documents/Developer/Jeopardy/Jeopardy/SelectedClueViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "260">
+               </Location>
+               <Location
+                  uuid = "6FF0BD4E-C365-4908-A76D-5A58DE24153C - de8e537fbc8fb6ec"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Jeopardy.SelectedClueViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Jeopardy.SelectedClueViewController&gt;"
+                  moduleName = "Jeopardy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/christianshirichena/Documents/Developer/Jeopardy/Jeopardy/SelectedClueViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "236">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.SwiftErrorBreakpoint">
+         <BreakpointContent
+            uuid = "E1496E11-F5AD-4609-BACE-AAAF567220E3"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

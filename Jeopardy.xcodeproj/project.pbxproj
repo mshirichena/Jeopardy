@@ -11,11 +11,13 @@
 		EC18E40F25A0F54300EA7AA4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC18E40E25A0F54300EA7AA4 /* SceneDelegate.swift */; };
 		EC18E41125A0F54300EA7AA4 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC18E41025A0F54300EA7AA4 /* MainViewController.swift */; };
 		EC18E41425A0F54300EA7AA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC18E41225A0F54300EA7AA4 /* Main.storyboard */; };
-		EC18E41725A0F54300EA7AA4 /* Jeopardy.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EC18E41525A0F54300EA7AA4 /* Jeopardy.xcdatamodeld */; };
 		EC18E41925A0F54400EA7AA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC18E41825A0F54400EA7AA4 /* Assets.xcassets */; };
 		EC18E41C25A0F54400EA7AA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC18E41A25A0F54400EA7AA4 /* LaunchScreen.storyboard */; };
 		EC18E42625A0F8B800EA7AA4 /* CluesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC18E42525A0F8B800EA7AA4 /* CluesTableViewCell.swift */; };
 		EC18E42B25A108D400EA7AA4 /* SelectedClueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC18E42A25A108D400EA7AA4 /* SelectedClueViewController.swift */; };
+		ECFD5FE225A4A4D100A97EDC /* Jeopardy.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ECFD5FE025A4A4D100A97EDC /* Jeopardy.xcdatamodeld */; };
+		ECFD5FE925A4B25A00A97EDC /* Clue.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFD5FE825A4B25A00A97EDC /* Clue.swift */; };
+		ECFE928725A3C821004D4567 /* DatabaseHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFE928625A3C821004D4567 /* DatabaseHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,12 +26,14 @@
 		EC18E40E25A0F54300EA7AA4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		EC18E41025A0F54300EA7AA4 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		EC18E41325A0F54300EA7AA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		EC18E41625A0F54300EA7AA4 /* Jeopardy.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Jeopardy.xcdatamodel; sourceTree = "<group>"; };
 		EC18E41825A0F54400EA7AA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC18E41B25A0F54400EA7AA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EC18E41D25A0F54400EA7AA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EC18E42525A0F8B800EA7AA4 /* CluesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CluesTableViewCell.swift; sourceTree = "<group>"; };
 		EC18E42A25A108D400EA7AA4 /* SelectedClueViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedClueViewController.swift; sourceTree = "<group>"; };
+		ECFD5FE125A4A4D100A97EDC /* Jeopardy.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Jeopardy.xcdatamodel; sourceTree = "<group>"; };
+		ECFD5FE825A4B25A00A97EDC /* Clue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clue.swift; sourceTree = "<group>"; };
+		ECFE928625A3C821004D4567 /* DatabaseHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,15 +67,17 @@
 			isa = PBXGroup;
 			children = (
 				EC18E40C25A0F54300EA7AA4 /* AppDelegate.swift */,
+				ECFE928625A3C821004D4567 /* DatabaseHelper.swift */,
 				EC18E40E25A0F54300EA7AA4 /* SceneDelegate.swift */,
 				EC18E41025A0F54300EA7AA4 /* MainViewController.swift */,
+				ECFD5FE825A4B25A00A97EDC /* Clue.swift */,
 				EC18E42A25A108D400EA7AA4 /* SelectedClueViewController.swift */,
 				EC18E42525A0F8B800EA7AA4 /* CluesTableViewCell.swift */,
 				EC18E41225A0F54300EA7AA4 /* Main.storyboard */,
 				EC18E41825A0F54400EA7AA4 /* Assets.xcassets */,
 				EC18E41A25A0F54400EA7AA4 /* LaunchScreen.storyboard */,
 				EC18E41D25A0F54400EA7AA4 /* Info.plist */,
-				EC18E41525A0F54300EA7AA4 /* Jeopardy.xcdatamodeld */,
+				ECFD5FE025A4A4D100A97EDC /* Jeopardy.xcdatamodeld */,
 			);
 			path = Jeopardy;
 			sourceTree = "<group>";
@@ -149,9 +155,11 @@
 				EC18E41125A0F54300EA7AA4 /* MainViewController.swift in Sources */,
 				EC18E42625A0F8B800EA7AA4 /* CluesTableViewCell.swift in Sources */,
 				EC18E42B25A108D400EA7AA4 /* SelectedClueViewController.swift in Sources */,
+				ECFD5FE225A4A4D100A97EDC /* Jeopardy.xcdatamodeld in Sources */,
+				ECFE928725A3C821004D4567 /* DatabaseHelper.swift in Sources */,
 				EC18E40D25A0F54300EA7AA4 /* AppDelegate.swift in Sources */,
+				ECFD5FE925A4B25A00A97EDC /* Clue.swift in Sources */,
 				EC18E40F25A0F54300EA7AA4 /* SceneDelegate.swift in Sources */,
-				EC18E41725A0F54300EA7AA4 /* Jeopardy.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,12 +363,12 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		EC18E41525A0F54300EA7AA4 /* Jeopardy.xcdatamodeld */ = {
+		ECFD5FE025A4A4D100A97EDC /* Jeopardy.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				EC18E41625A0F54300EA7AA4 /* Jeopardy.xcdatamodel */,
+				ECFD5FE125A4A4D100A97EDC /* Jeopardy.xcdatamodel */,
 			);
-			currentVersion = EC18E41625A0F54300EA7AA4 /* Jeopardy.xcdatamodel */;
+			currentVersion = ECFD5FE125A4A4D100A97EDC /* Jeopardy.xcdatamodel */;
 			path = Jeopardy.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;

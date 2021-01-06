@@ -10,15 +10,13 @@ import UIKit
 class CluesTableViewCell: UITableViewCell {
 
     @IBOutlet weak var cellTopLabel: UILabel!
-    
     @IBOutlet weak var cellContentLabel: UILabel!
     
 override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
     cellTopLabel.numberOfLines = 1
     cellContentLabel.numberOfLines = 3
-    print("I have my content")
+
     
     }
 
